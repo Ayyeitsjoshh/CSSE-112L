@@ -8,8 +8,11 @@ Link to main Project: https://ayyeitsjoshh.github.io/CSSE-370/
   - An image on each page
   - At least 3 external links
   <Notes>
->Phase #2 
+>Phase #2  (Due Friday 1-31-20)
   
   All previous tests pass OR modified tests/Dropped test
   Test Cases
+  -  css files
+      ~ must include 5 diferent selectors
+  - add sidbar, doesn't matter whats on webpage
   <Notes>

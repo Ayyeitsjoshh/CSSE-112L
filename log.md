@@ -1,4 +1,4 @@
->PHASE #1 (Due Firiday)
+>PHASE #1 (Due Firiday 1-24-20)
   Test Cases
   - two html pages(index.html and another page)
   - THe pages should lnk to each other

@@ -14,5 +14,13 @@ Link to main Project: https://ayyeitsjoshh.github.io/CSSE-370/
   Test Cases
   -  css files
       ~ must include 5 diferent selectors
-  - add sidbar, doesn't matter whats on webpage
+  - add sidbar, does10't matter whats on webpage
   <Notes>
+
+  Test Cases Phase #3
+  - No sideScrolling 
+  - Media Query push to sidebar
+  - Mobile Friendly 
+  <notes>
+  Webpage passes Googles Requirements 
+  Little Side Scrolling

@@ -24,3 +24,14 @@ Link to main Project: https://ayyeitsjoshh.github.io/CSSE-370/
   <notes>
   Webpage passes Googles Requirements 
   Little Side Scrolling
+  
+  Test Cases Phase #4 
+  - An external JavaScript file, that is loaded by your index.html file.
+  - An element (such as a button) that creates a new, visible element when clicked.
+  - The new element should:
+    > have style applied from your css file
+    > deletes itself when clicked
+  - An element that contains text that changes when the mouse moves over it, based on mouse location
+  <notes> 
+  added button to remove Img
+  FAQ scales onHover 

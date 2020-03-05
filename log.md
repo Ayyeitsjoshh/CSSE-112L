@@ -35,3 +35,4 @@ Link to main Project: https://ayyeitsjoshh.github.io/CSSE-370/
   <notes> 
   added button to remove Img
   FAQ scales onHover 
+   

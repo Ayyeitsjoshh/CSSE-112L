@@ -36,3 +36,12 @@ Link to main Project: https://ayyeitsjoshh.github.io/CSSE-370/
   added button to remove Img
   FAQ scales onHover 
    
+Test Case Phase #6
+ > Add this user workflow to your project:
+-Information is pulled through an API (this can be triggered by a user action or automatically using an onload event handler)
+-Present to the user some choice based on that information.
+-Based on the user choice, request additional information through an API.
+-Present something based on the additional information.
+<notes>
+API from quote of the day, User is prompt with alert in the beggining, there is a button on the homepage, if user clicks, presents 
+  a new quote

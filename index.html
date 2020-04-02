@@ -3,10 +3,44 @@
 <head>
 <link rel="stylesheet" type="text/css" href="Style.css">
 <script src ="main.js"> </script>
+
+<style>
+	html, body, .section {
+    height: 100%;
+	}
+
+	#authors {
+		text-align: center;
+	}
+
+	#authors li {
+		margin: 1rem 0;
+	}
+
+	#popup {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 50%;
+    max-width: 50%;
+    z-index: 1;
+    background-color: #efefef;
+    opacity: .8;
+    box-sizing: border-box;
+    padding: 10% 0 0 0;
+    text-align: center;
+	}
+
+</style>
+
 </head>
 
 <body>
-<button onclick="triggerAPICall()" style="position:relative; left: 300px"> click me for another Quote </button>
+<div class="section">
+<button onclick="fetchQuote()" style="position:relative; left: 300px"> click me for another Quote </button>
 <button onclick = "myFunction()" style="position:relative; left: 400px"> Click this if you don't like baby Yoda</button>
 <form style="position:relative; left: 400px" > Leave a message: <input type="text"></form>
 <h1 style="border-style: dotted; position:relative;top:100px; left: -200px;"> FAQ </h1>
@@ -17,7 +51,7 @@
 <div class="dropdown" style=";position: relative;left: 400px; top: 250px;"><span>Whats your Major?</span>
 <div class="dropdown-content"><p> B.S. Software Engineering </p></div></div>
 <div class="sidebar">
-  
+
 <a href="https://soundcloud.com/discover" target="_blank"><p class=link> SoundCloud </p>  </a>
 <hr>
 <a href="https://www.instagram.com/ayyeitsjoshhh/" target="_blank"><p class=link> Instagram </p>  </a>
@@ -28,6 +62,11 @@
 <hr>
 </div>
 <img id="image" class=imgcenter src="https://i.redd.it/d19cl2tyxq141.png" alt = "google dinosaur" >
+</div>
+</div>
+
+<div class="section">
+	<ul id="authors"></ul>
 </div>
 
 </body>

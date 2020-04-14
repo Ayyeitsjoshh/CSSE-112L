@@ -143,3 +143,15 @@ function getQuotesByAuthor() {
 }
 
 getQuotesByAuthor();
+
+const invocation = new XMLHttpRequest();
+const url = 'https://ayyeitsjoshh.github.io/CSSE-370/';
+    
+function callOtherDomain() {
+  if (invocation) {
+    invocation.open('GET', url, true);
+    invocation.withCredentials = true;
+    invocation.onreadystatechange = handler;
+    invocation.send(); 
+  }
+}

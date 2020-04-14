@@ -1,3 +1,8 @@
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="cache-control" content="no-store" />
+<meta http-equiv="cache-control" content="must-revalidate" />
+<meta http-equiv="pragma" content="no-cache" />
+
 @media screen and (max-width: 600px) {
   div.example {
     display: none;

@@ -44,13 +44,13 @@ popup.addEventListener('click', function(e) {
 });
 
 function alertQuote(quote) {
-// Em Dash character code
+
 
 const endash = '\u2014';
 
 const text = `<q>${quote.body}</q> </br> <p>${endash} ${quote.author}</p>`;
 
-// Alert quote and credit author
+
 popup.querySelector('#content').innerHTML = text;
 popup.setAttribute('data-id', quote.id);
 
@@ -93,7 +93,7 @@ function queryParams(params) {
 
 async function triggerAPICall(endpoint = 'qotd', options = {}) {
 
-// API URL
+
 
 let url= `https://favqs.com/api/${endpoint}`;
 
@@ -103,11 +103,11 @@ if(options.queryParams) {
 }
 
 
-// Call API
+
 
 let response = await fetch(url, options);
 
-// Wait for promise to resolve and return a JSON object from API response
+
 
 return await response.json();
 
@@ -116,11 +116,11 @@ return await response.json();
 
 
 function fetchQuote(){
-  // Trigger API call
+  
 
 triggerAPICall()
 
-// Handle API response
+
 
 .then((data) => alertQuote(data.quote));
 

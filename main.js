@@ -1,3 +1,5 @@
+<meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+
 const API_KEY = '0aa37f98cf6790bd00c62bf3bc4bc3b9';
 
 

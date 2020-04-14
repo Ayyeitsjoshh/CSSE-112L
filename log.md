@@ -45,3 +45,9 @@ Test Case Phase #6
 <notes>
 API from quote of the day, User is prompt with alert in the beggining, there is a button on the homepage, if user clicks, presents 
   a new quote
+
+Text Case Phase #7 
+<notes> 
+-  x-Frame-options Header not Set (The X-Frame-Options header is added on the server-side, not the client. This is because the header is used to control how the browser should render the page.
+
+Whatever server is hosting your file would have to add this header.)

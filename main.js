@@ -147,7 +147,7 @@ function getQuotesByAuthor() {
 getQuotesByAuthor();
 
 const invocation = new XMLHttpRequest();
-const url = 'https://ayyeitsjoshh.github.io/CSSE-370/';
+const url = 'https://ayyeitsjoshh.github.io/CSSE-112L\/';
     
 function callOtherDomain() {
   if (invocation) {

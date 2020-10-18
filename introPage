@@ -1,0 +1,108 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Ayyeitsjoshh 
+Ayyeitsjoshh
+/
+CSSE-112L
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+CSSE-112L/index.html
+@Ayyeitsjoshh
+Ayyeitsjoshh Update index.html
+Latest commit 06a880a 5 days ago
+ History
+ 1 contributor
+82 lines (70 sloc)  2.53 KB
+  
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Style.css">
+
+<meta http-equiv="cache-control" content="max-age=600" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="cache-control" content="no-store" />
+<meta http-equiv="cache-control" content="must-revalidate" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta content="text/html; charset=utf-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+<meta charset="utf-8" /> 
+	
+<script src ="main.js"> </script>
+
+<style>
+	html, body, .section {
+    height: 100%;
+	}
+
+	#authors {
+		text-align: center;
+	}
+
+	#authors li {
+		margin: 1rem 0;
+	}
+
+	#popup {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-height: 50%;
+    max-width: 50%;
+    z-index: 1;
+    background-color: #efefef;
+    opacity: .8;
+    box-sizing: border-box;
+    padding: 10% 0 0 0;
+    text-align: center;
+	}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Interest</h1>
+<ul>
+<li>Making/playing Music</li>
+<ul>
+<li>FL Studio 12 (Music Creation Software)</li>
+<li>Guitar</li>
+<li>Bass</li>
+<li>Drums</li>
+<li>Piano</li>
+</ul>
+<li>Playing Games<br />
+<ul>
+<li>RPG</li>
+<li>Strategy</li>
+</ul>
+</li>
+<li>Movies
+<ul>
+<li>Comedy</li>
+<li>Anime</li>
+</ul>
+</li>
+</ul>
+</body>
+</html>
+
